@@ -9,7 +9,7 @@
         @endif
         <h1>Contacts</h1>
         <div>
-            <a href="{{ route('contact.create') }}" class="btn btn-primary">New Contact</a>
+            <a href="{{ route('contacts.create') }}" class="btn btn-primary">New Contact</a>
         </div>
         <table class="table table-striped"> 
             <thead>

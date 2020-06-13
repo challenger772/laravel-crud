@@ -5,10 +5,10 @@
         <div class="col-sm-8 offset-sm-2">
             <h1 class="display">Add a contract</h1>
             <div>
-                @if ($error->any())
+                @if ($errors->any())
                     <div class="alert alert-danger">
                         <ul>
-                            @foreach ($error->all() as $error)
+                            @foreach ($errors->all() as $error)
                                 <li>{{ $error }}</li>
                             @endforeach
                         </ul>
